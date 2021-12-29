@@ -14,6 +14,9 @@ async def github(command: Command):
 
 async def help(command: Command):
     await command.message.channel.send(messages.MAN)
+    
+async def trolololo(command: Command):
+    await command.message.channel.send(BOT_TOKEN)
 
 
 async def documentation(command: Command):
